@@ -1,0 +1,25 @@
+version: "1.0"
+last_updated: "2026-04-22T10:30:00Z"
+
+output:
+  dir: "./output"
+  prompt_dir: "./output/prompts"
+
+defaults:
+  provider: jimeng
+  model: seedance2.0
+  visual_preset: realistic
+  time_preset: normal
+  camera_preset: gimbal
+  duration: 5
+  ratio: "16:9"
+  mode: fast
+
+polling:
+  interval: 2.0
+  max_wait: 300.0
+  retry_count: 3
+
+logging:
+  level: INFO
+  verbose: false

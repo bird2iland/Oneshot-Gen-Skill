@@ -1,0 +1,98 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-04-23T19:30:03.275998",
+  "custom": {
+    "visual": {
+      "realistic": {
+        "name": "真实风格",
+        "description": "高度写实的视觉呈现",
+        "keywords": [
+          "真实",
+          "写实",
+          "自然"
+        ],
+        "template": "",
+        "metadata": {},
+        "created_at": "2026-04-23T01:00:00.000000",
+        "updated_at": "2026-04-23T01:00:00.000000"
+      },
+      "双城之战": {
+        "name": "双城之战",
+        "description": "netflix剧集",
+        "keywords": [
+          "三渲二，蒸汽朋克美学结合维多利亚风格"
+        ],
+        "template": "",
+        "metadata": {},
+        "created_at": "2026-04-23T19:30:03.275981",
+        "updated_at": "2026-04-23T19:30:03.275996"
+      }
+    },
+    "time": {
+      "slow_motion": {
+        "name": "慢动作",
+        "description": "缓慢的时间流逝",
+        "keywords": [
+          "慢动作",
+          "慢",
+          "缓慢"
+        ],
+        "template": "",
+        "metadata": {},
+        "created_at": "2026-04-23T01:00:00.000000",
+        "updated_at": "2026-04-23T01:00:00.000000"
+      },
+      "timelapse": {
+        "name": "延时摄影",
+        "description": "加速的时间流逝",
+        "keywords": [
+          "延时",
+          "加速",
+          "快进"
+        ],
+        "template": "",
+        "metadata": {},
+        "created_at": "2026-04-23T01:00:00.000000",
+        "updated_at": "2026-04-23T01:00:00.000000"
+      }
+    },
+    "camera": {
+      "gimbal": {
+        "name": "稳定器拍摄",
+        "description": "使用云台稳定器拍摄",
+        "keywords": [
+          "稳定",
+          "平滑",
+          "云台"
+        ],
+        "template": "",
+        "metadata": {},
+        "created_at": "2026-04-23T01:00:00.000000",
+        "updated_at": "2026-04-23T01:00:00.000000"
+      },
+      "handheld": {
+        "name": "手持拍摄",
+        "description": "手持相机拍摄",
+        "keywords": [
+          "呼吸感，和被摄对象有情绪连接"
+        ],
+        "template": "",
+        "metadata": {},
+        "created_at": "2026-04-23T13:38:02.335866",
+        "updated_at": "2026-04-23T13:38:02.335883"
+      },
+      "shuttle": {
+        "name": "Shuttle",
+        "description": "高速穿梭",
+        "keywords": [
+          "穿梭机视角，高速运动"
+        ],
+        "template": "",
+        "metadata": {},
+        "created_at": "2026-04-23T13:11:02.100543",
+        "updated_at": "2026-04-23T13:11:02.100563"
+      }
+    },
+    "combo": {}
+  }
+}

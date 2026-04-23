@@ -1,0 +1,15 @@
+tasks:
+  - visual: realistic
+    time: timelapse
+    camera: shuttle
+    description: "City timelapse video"
+    images:
+      - "test_image.jpg"
+    duration: 5.0
+    ratio: "16:9"
+
+concurrency: 2
+mode: fast
+provider: jimeng
+output_dir: "./output"
+continue_on_error: true

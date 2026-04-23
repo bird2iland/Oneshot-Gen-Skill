@@ -1,0 +1,29 @@
+========================================
+Video-Gen Prompt Export
+========================================
+
+生成时间: {timestamp}
+
+【预设组合】
+- 视觉风格: {visual_preset} ({visual_keywords})
+- 时间采样: {time_preset} ({time_keywords})
+- 运镜风格: {camera_preset} ({camera_keywords})
+
+【原始描述】
+{user_description}
+
+【优化后提示词】
+{optimized_prompt}
+
+【生成参数】
+- 时长: {duration}秒
+- 比例: {ratio}
+- 模型: {model}
+- 优化模式: {mode}
+
+【使用说明】
+1. 此提示词可直接复制到即梦 Web 端使用
+2. 如需调整，可修改预设组合重新生成
+3. 文件路径: {file_path}
+
+========================================

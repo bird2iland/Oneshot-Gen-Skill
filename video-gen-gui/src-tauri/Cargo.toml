@@ -1,0 +1,29 @@
+[package]
+name = "video-gen-gui"
+version = "0.1.0"
+edition = "2021"
+description = "Video Generation GUI Tool"
+authors = ["Video Generation Team"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-shell = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_yaml = "0.9"
+dirs = "5"
+keyring = "2"
+base64 = "0.22"
+chrono = "0.4"
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true
