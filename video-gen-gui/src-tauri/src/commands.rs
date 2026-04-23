@@ -20,7 +20,7 @@ pub fn get_python_path() -> String {
     
     // 尝试 3: 使用 video-gen-cli 的 venv
     let cli_path = root_path.join("video-gen-cli");
-    let cli_venv_python = cli_path.join("venv").join("bin").join("python");
+    let cli_venv_python = cli_path.join(".venv").join("bin").join("python");
     if cli_venv_python.exists() {
         eprintln!("DEBUG: Using CLI venv python: {:?}", cli_venv_python);
         return cli_venv_python.display().to_string();
